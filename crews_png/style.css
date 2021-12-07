@@ -17,8 +17,8 @@ p {
 }
 
 section {
-    height : 30vh;
-    width: 50vw;
+    height : 40vh;
+    width: 70vw;
     border : 2px solid #000;
     margin-bottom: 2px;
    
@@ -34,25 +34,47 @@ ul li {
     align-items: end;
     width: 40vw;
     top: 0.5%;
-    background: #fff;
 }
 
 .crews__navbar ul li{
     display: inline-block;
     padding: 4px;
-    font-size: x-small;
+    font-size: 10px;
 }
 
 .crews__header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: aquamarine;
     justify-content: center;
     align-items: center;
 }
 
+.crews__header1 {
+    background: #44f;
+    height: 80%;
+}
+.crews__header2 {
+    background: #f4f;
+    height: 20%;
+}
+
 .crews__headerBlock {
-    width : 200px;
+    background: #fe4;
+    width : 180px;
     justify-content: center;
+    text-align: center;
+}
+
+.crews__flexRow {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+.crews__watchTab ul li {
+    display: inline-block;
+    padding: 5px;
     text-align: center;
 }
